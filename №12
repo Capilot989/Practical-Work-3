@@ -1,0 +1,2 @@
+import datetime as data
+print(data.datetime.now())
