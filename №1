@@ -1,0 +1,2 @@
+bitcoin=input('Введите стоимость биткойна')
+print(bitcoin[-3])
