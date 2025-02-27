@@ -1,0 +1,7 @@
+n=int(input('введите кол-во рисунков'))
+up="(\___/) "
+middle="(='.'=) "
+down='(")_(") '
+print(f'{up*n}\n'
+      f'{middle*n}\n'
+      f'{down*n}')
