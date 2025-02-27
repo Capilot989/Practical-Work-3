@@ -1,0 +1,6 @@
+N=int(input())
+C=int(input())
+numb=int(input())
+print(f'страница {numb // (N*C) + 1} столбец '
+      f'{(numb % (N*C)) // N + 1} строка '
+      f'{(numb % (N*C)) % N}')
