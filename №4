@@ -1,0 +1,2 @@
+x,y,n=map(int, input('').split())
+print(f'{x*n+y*n//100} руб. {(y*n)%100} коп.')
