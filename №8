@@ -1,0 +1,7 @@
+import math
+a=int(input())
+b=int(input())
+c=int(input())
+print(f'{math.degrees(math.acos((b**2 + c**2 - a**2) / (2 * b * c)))}\n'
+    f'{math.degrees(math.acos((a**2 + c**2 - b**2) / (2 * a * c)))}\n'
+    f'{math.degrees(math.acos((a**2 + b**2 - c**2) / (2 * a * b)))}')
